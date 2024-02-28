@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .banner {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .link-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .link-section {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .link-section h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .link-section a {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .link-section a:hover {
+    text-decoration: underline;
+  }
+  
