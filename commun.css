@@ -1,40 +1,66 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-  }
-  
-  .banner {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
-  .link-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .link-section {
-    margin: 0 10px;
-    text-align: center;
-  }
-  
-  .link-section h2 {
-    margin-bottom: 10px;
-    font-size: 20px;
-  }
-  
-  .link-section a {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .link-section a:hover {
-    text-decoration: underline;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.banner {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.link-section {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.link-section h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.link-section a {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 500px;
+  height: auto;
+  border-radius: 50px; /* Set border radius to 10 pixels for round corners */
+}
+
+h2, h3, p {
+text-align: center;
+}
+
+.container {
+display: flex;
+justify-content: center; /* Center the content horizontally */
+align-items: center; /* Center the content vertically */
+height: 10vh;
+}
+
+.container a {
+text-decoration: none; /* Remove underline from the link */
+color: #333; /* Set link color */
+padding: 10px 20px; /* Add padding for better visibility */
+border: 1px solid #333; /* Add border for better visibility */
+border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.link-section a:hover {
+  text-decoration: underline;
+}
