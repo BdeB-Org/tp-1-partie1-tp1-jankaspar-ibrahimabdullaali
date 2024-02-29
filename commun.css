@@ -39,7 +39,7 @@ img {
   margin: 0 auto 10px;
   width: 500px;
   height: auto;
-  border-radius: 50px; /* Set border radius to 10 pixels for round corners */
+  border-radius: 50px;
 }
 
 h2, h3, p {
@@ -48,17 +48,17 @@ text-align: center;
 
 .container {
 display: flex;
-justify-content: center; /* Center the content horizontally */
-align-items: center; /* Center the content vertically */
+justify-content: center;
+align-items: center
 height: 10vh;
 }
 
 .container a {
-text-decoration: none; /* Remove underline from the link */
-color: #333; /* Set link color */
-padding: 10px 20px; /* Add padding for better visibility */
-border: 1px solid #333; /* Add border for better visibility */
-border-radius: 5px; /* Add border radius for rounded corners */
+text-decoration: none;
+color: #333;
+padding: 10px 20px;
+border: 1px solid #333;
+border-radius: 5px;
 }
 
 .link-section a:hover {
