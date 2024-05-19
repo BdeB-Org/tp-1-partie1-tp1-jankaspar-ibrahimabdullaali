@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Gestion des tâches</title>
+    <link rel="stylesheet" href="styles.css"> 
+
+    <header>
+        <div class="logo">
+            <img src="./TP3-images/list-logo.png" alt="Logo du site">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Se connecter</a></li>
+                <li><a href="accueil.html">À propos</a></li>
+                <li><a href="liste.html">Listes</a></li>
+            </ul>
+        </nav>
+    </header>
 </head>
 <body>
-    
+    <main>
+      
+        <section class="opération-liste">
+            <h2> La liste des Tâches </h2>
+            <button class="button-modifier">Modifier la liste</button>
+            <button class="button-supprimer">Supprimer la liste</button>
+            <button class="button-partager">Partager la liste</button>
+        </section>
+
+        <section class="tâches">
+            <h3>Tâches</h3>
+            <ul id="conteneur de tâches">
+                <li class="élément de tâche">
+                    <span class="Nom-tâche">nom de la tâche</span>
+                    <button class="button-terminer">Tâche terminer</button>
+                    <button class="button-modifier">Modifier la tâche</button>
+                    <button class="button-supprimer">Supprimer la tâche</button>
+                </li>
+            </ul>
+        </section>
+
+        <section class="nouvelle-tâche">
+            <h3>Ajouter une nouvelle tâche</h3>
+            <form id="ajout-tâche">
+                <label for="Nom-tâche">Nom de la tâche :</label>
+                <input type="text" id="Nom-tâche" name="tâche-nom" required>
+                
+                <label for="description-tâche">Description :</label>
+                <input type="texte" id="description-tâche" name="description-tâche">
+                
+                <label for="date-tâche">Date d'échéance :</label>
+                <input type="date" id="date-tâche" name="date-tâche">
+                
+                <button type="effectuer">Ajouter la tâche</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+       
+        <p>&copy; Fait par Jan et Ibrahim pour TP3 au Cegep Bois-de-Boulogne </p>
+    </footer>
+
 </body>
 </html>
