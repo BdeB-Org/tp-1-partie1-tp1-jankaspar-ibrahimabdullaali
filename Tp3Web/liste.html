@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Listes de Tâches</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <header>
+        <div class="logo">
+            <img src="./TP3-images/list-logo.png" alt="Logo du site">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">se connecter</a></li>
+                <li><a href="home.html"> Accueil</a></li>
+                <li><a href="listes.html">Listes</a></li>
+            </ul>
+        </nav>
+    </header>
 </head>
 <body>
+
     
+    <section class="opération-liste">
+        <h2> La liste des Tâches </h2>
+        <button class="button-modifier">Modifier la liste</button>
+        <button class="button-supprimer">Supprimer la liste</button>
+        <button class="button-partager">Partager la liste</button>
+
+        <section class="nouveau-liste">
+            <h2>Créer une nouvelle liste de tâches</h2>
+            <form id="créer-liste">
+                <label for="liste-nom">Nom de la liste :</label>
+                <input type="texte" id="list-nom" name="list-nom" required>
+                <button type="submit">Créer la liste</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+       
+        <p>&copy; Fait par Jan et Ibrahim pour TP3 au Cegep Bois-de-Boulogne </p>
+    </footer>
 </body>
-</html>
+</html
